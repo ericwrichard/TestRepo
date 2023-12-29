@@ -1,0 +1,33 @@
+.btn {
+    height: 55px;
+    flex: 1;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.primary {
+    background-color: rgb(69, 232, 69);
+    box-shadow: 0 0 10px 3px rgb(69, 232, 69);
+}
+
+.secondary {
+    background-color: rgb(250, 68, 68);
+    box-shadow: 0 0 10px 3px rgb(250, 68, 68);
+    color: white;
+}
+
+.primary:hover, .primary:focus, .primary:active, .primary:active {
+    background-color: rgb(4, 157, 4);
+    box-shadow: 0 0 10px 3px rgb(1, 179, 1);
+}
+
+.secondary:hover, .secondary:focus, .secondary:active, .secondary:active {
+    background-color: rgb(249, 107, 107);
+    box-shadow: 0 0 10px 3px rgb(247, 93, 93);
+}
